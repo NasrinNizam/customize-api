@@ -35,7 +35,7 @@ export const ProductCompo = () => {
 
         {
           productData.map((item , i)=>(
-            <div key={i} className="single-product bg-lime-50 rounded-lg p-5 flex flex-col items-center">
+            <div key={i} className="single-product bg-lime-50 rounded-2xl p-5 flex flex-col items-center">
             <div className="image w-[130px] h-[130px] mb-5">
                 <img className="w-full h-full" src={item.image} alt="serum" />
             </div>

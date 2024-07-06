@@ -12,11 +12,11 @@ export const Navbar = () => {
             <div className="menu">
                 <ul className="flex flex-wrap gap-5 justify-center items-center text-lg text-white">
                     <li className="bg-gradient-to-r from-cyan-500 to-blue-500 px-4 hover:scale-110 hover:text-[#000] py-1 rounded-2xl"><Link to="/">Home</Link></li>
-                    <li className="bg-gradient-to-r from-cyan-500 to-blue-500 px-4 hover:scale-110 hover:text-[#000] py-1 rounded-2xl"><Link to="/about">About</Link></li>
                     <li className="bg-gradient-to-r from-cyan-500 to-blue-500 px-4 hover:scale-110 hover:text-[#000] py-1 rounded-2xl"><Link to="/product">Products</Link></li>
+                    <li className="bg-gradient-to-r from-cyan-500 to-blue-500 px-4 hover:scale-110 hover:text-[#000] py-1 rounded-2xl"><Link to="/user">Users</Link></li>
+                    <li className="bg-gradient-to-r from-cyan-500 to-blue-500 px-4 hover:scale-110 hover:text-[#000] py-1 rounded-2xl"><Link to="/about">About</Link></li>
                     <li className="bg-gradient-to-r from-cyan-500 to-blue-500 px-4 hover:scale-110 hover:text-[#000] py-1 rounded-2xl"><Link to="contact">Contact</Link></li>
                     <li className="bg-gradient-to-r from-cyan-500 to-blue-500 px-4 hover:scale-110 hover:text-[#000] py-1 rounded-2xl"><Link to="/help">Help</Link></li>
-                    <li className="bg-gradient-to-r from-cyan-500 to-blue-500 px-4 hover:scale-110 hover:text-[#000] py-1 rounded-2xl"><Link to="/user">Users</Link></li>
                 </ul>
             </div>
            </div>

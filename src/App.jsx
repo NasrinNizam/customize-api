@@ -11,6 +11,7 @@ import { Order } from './Pages/Order'
 import { Home } from './Pages/Home'
 import { About } from './Pages/About'
 import { Product } from './Pages/Product'
+import { NotFound } from './Pages/NotFound'
 
 function App() {
 const route =createBrowserRouter(
@@ -27,6 +28,7 @@ const route =createBrowserRouter(
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/order' element={<Order/>}/>
       </Route>
+      <Route path='*' element={<NotFound/>}/>
     </Route>
   )
 )

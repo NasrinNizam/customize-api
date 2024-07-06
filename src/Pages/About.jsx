@@ -1,11 +1,10 @@
 import React from 'react'
+import { AboutCompo } from '../Component/AboutCompo'
 
 export const About = () => {
   return (
-    <div className="w-full h-screen">
-
-
-
+    <div>
+      <AboutCompo/>
     </div>
   )
 }
