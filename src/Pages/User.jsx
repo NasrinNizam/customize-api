@@ -20,7 +20,7 @@ export const User = () => {
             <div className="img-col w-[150px] h-[150px] rounded-full overflow-hidden ">
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST3aytOJVrftZbvKV5vSxnnHqbkYp7btnT8Q&s" alt="img" />
             </div>
-            <div className='text'>
+            <div className='text flex flex-col justify-center items-center gap-3'>
               <p className='text-lg font-bold text-black'>Name :{item.name} </p>
               <h1 className='text-xl font-semibold text-black'>Phone :{item.phone} </h1>
               <p className='text-lg font-semibold text-black'>Email :{item.email} </p>

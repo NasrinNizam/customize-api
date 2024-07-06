@@ -28,9 +28,9 @@ export const CartCompo = () => {
         </div>
         <div className="text mt-5">
             <h4 className=" text-blue-950 text-[16px] font-bold mb-3">ID : {data.id}</h4>
-            <h4 className="text-blue-950 text-[16px] font-bold mb-3">Price : {data.price}</h4>
-            <h4 className="text-blue-950 text-[16px] font-bold mb-3">Vat : {rate}</h4>
-            <h4 className="text-blue-950 text-[16px] font-bold">Total price : {data.price+rate} </h4>
+            <h4 className="text-blue-950 text-[16px] font-bold mb-3">Price : {data.price} $</h4>
+            <h4 className="text-blue-950 text-[16px] font-bold mb-3">Vat : {rate} $</h4>
+            <h4 className="text-blue-950 text-[16px] font-bold">Total price : {data.price+rate} $ </h4>
         </div>
     </div>
     <div className="flex gap-5">
